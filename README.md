@@ -13,3 +13,4 @@
 # 1. mvn clean package
 # 2. java -jar target/crawler-mvc-0.1.0.jar 
 # 3. open your browser and enter url: http://localhost:8090/products
+# or run 'mvn spring-boot:run'
