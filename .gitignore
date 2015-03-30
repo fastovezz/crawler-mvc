@@ -6,6 +6,11 @@
 # Maven artifacts directory
 target/
 
+# IDEA files and directories
+*.ipr
+*.iml
+.idea/
+
 # Package Files #
 *.jar
 *.war
