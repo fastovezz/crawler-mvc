@@ -1,13 +1,11 @@
 # crawler-mvc
 
-Application uses MySQL so please create database\
-running following script before starting application:\
+Application uses MySQL so please create database running following script before starting application:
+```sql
 CREATE DATABASE IF NOT EXISTS fastovezz_db DEFAULT CHARACTER SET = 'utf8' DEFAULT COLLATE 'utf8_general_ci'
+```
 
-Maven is used to manage project dependencies\
-but it was unable to download c3p0-0.9.2.1.jar\
-so I downloaded it manually and placed under\
-my local maven repository
+Maven is used to manage project dependencies but it was unable to download c3p0-0.9.2.1.jar so I downloaded it manually and placed under my local maven repository.
 
 To start the application run following commands under project root directory:
 1. mvn clean package
